@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Gorilla.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Gorilla.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gorilla.BusinessLogic.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Gorilla.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../Gorilla.BusinessLogic/Gorilla.BusinessLogic.csproj",
+      "msbuildProject": "../Gorilla.BusinessLogic/Gorilla.BusinessLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Gorilla.BusinessLogic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sairg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Proyectos\\WinGorilla\\GorillaSamples\\Gorilla.WinFormsDemo\\Gorilla.WinFormsDemo.csproj",
+      "projectName": "Gorilla.WinFormsDemo",
+      "projectPath": "E:\\Proyectos\\WinGorilla\\GorillaSamples\\Gorilla.WinFormsDemo\\Gorilla.WinFormsDemo.csproj",
+      "packagesPath": "C:\\Users\\sairg\\.nuget\\packages\\",
+      "outputPath": "E:\\Proyectos\\WinGorilla\\GorillaSamples\\Gorilla.WinFormsDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sairg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "E:\\Proyectos\\WinGorilla\\GorillaSamples\\Gorilla.BusinessLogic\\Gorilla.BusinessLogic.csproj": {
+              "projectPath": "E:\\Proyectos\\WinGorilla\\GorillaSamples\\Gorilla.BusinessLogic\\Gorilla.BusinessLogic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
